@@ -41,3 +41,7 @@ HOME32 = @home32@
 
 ## Fix for MiKTeX removing texi2dvi
 TEXI2DVI = TEXINDEX=$(RTOOLS)/bin/texindex.exe texify
+
+## To enable debugging
+DEBUG = YES
+G_FLAG = -g -Og
