@@ -10,7 +10,7 @@ blas00.o: blas00.c
 ## Rblas.dll imports xerbla_ from R.dll
 ifeq "$(USE_ATLAS)" "YES"
 ../../../$(BINDIR)/Rblas.dll: blas00.o ../../gnuwin32/dllversion.o
-	@$(ECHO) -------- Building $@ --------
+	@$(ECHO) -------- Building $@ Atlas path $(ATLAS_PATH) --------
 	$(DLL) -shared $(DLLFLAGS) -o $@ $^ Rblas.def \
 	   -L../../../$(IMPDIR) -lR -L"$(ATLAS_PATH)" -lopenblas_haswellp-r0.2.20
 else
