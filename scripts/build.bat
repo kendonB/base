@@ -43,6 +43,7 @@ sed -e "s|@win@|%WIN%|" -e "s|@home@|%XR_HOME%|" -e "s|@home32@|%XHOME32%|" %SOU
 cp -R %SOURCEDIR%\libcurl %R_HOME%\libcurl
 cp -R %SOURCEDIR%\Tcltk\Tcl%WIN% %R_HOME%\Tcl
 cp -R %SOURCEDIR%\extsoft %R_HOME%\extsoft
+cp -R %SOURCEDIR%\openblas %R_HOME%\openblas
 cp %SOURCEDIR%\files\curl-ca-bundle.crt %R_HOME%\etc\curl-ca-bundle.crt
 
 :: Temporary fix for cairo stack
