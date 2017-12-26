@@ -80,17 +80,17 @@ sed -i "s|LOCAL_SOFT =|#LOCAL_SOFT|" fixed/etc/Makeconf
 :: make rsync-extsoft
 
 :: Build 32bit R version only
-:: IF "%WIN%"=="32" (
-:: make 32-bit > %BUILDDIR%/32bit.log 2>&1
-:: if %errorlevel% neq 0 (
-:: 	echo ERROR: 'make 32-bit' failure! Inspect 32bit.log for details.
-:: 	exit /b 2
-:: ) else (
-:: 	cd %SOURCEDIR%
-:: 	echo make 32-bit complete!
-:: 	exit /b 0
-:: )
-:: )
+IF "%WIN%"=="32" (
+make 32-bit > %BUILDDIR%/32bit.log 2>&1
+if %errorlevel% neq 0 (
+	echo ERROR: 'make 32-bit' failure! Inspect 32bit.log for details.
+	exit /b 2
+) else (
+	cd %SOURCEDIR%
+	echo make 32-bit complete!
+	exit /b 0
+)
+)
 
 :: Build 64bit version + installer
 make distribution > %BUILDDIR%/distribution.log 2>&1
