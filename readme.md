@@ -1,4 +1,4 @@
-# R for Windows [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/rwinlib/base)](https://ci.appveyor.com/project/jeroen/base)
+# R for Windows [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/kendonb/base)](https://ci.appveyor.com/project/kendonb/base)
 
 > Official repository for building R on Windows
 
