@@ -257,7 +257,7 @@ Function InstallOpenBLAS {
   # $opb_url = "https://ci.appveyor.com/api/buildjobs/u6fm6avm2q9jveuo/artifacts/artifacts%2Fopenblas-win.zip"
   $opb_url = "https://ci.appveyor.com/api/buildjobs/ctsbxkdgvd2h809e/artifacts/artifacts%2Fopenblas-win.zip"
   Progress ("Downloading OpenBLAS from: " + $opb_url)
-  & "C:\Program Files\Git\mingw64\bin\curl.exe" -s -o ../openblas-win.zip -L $inno_url
+  & "C:\Program Files\Git\mingw64\bin\curl.exe" -s -o ../openblas-win.zip -L $opb_url
   Progress "Extracting OpenBLAS"
   7z x ../openblas-win.zip -oc:\OpenBLAS | Out-Null
   Progress "OpenBLAS installation: Done"
