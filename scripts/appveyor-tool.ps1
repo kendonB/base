@@ -254,7 +254,8 @@ Function InstallInno {
 }
 
 Function InstallOpenBLAS {
-  $opb_url = "https://ci.appveyor.com/api/projects/kendonB/base/artifacts/artifacts/openblas-win.zip?branch=master&job=Environment%3A%20COMPILER%3Dclang-cl%2C%20WITH_FORTRAN%3Dyes%0D%0A"
+  # $opb_url = "https://ci.appveyor.com/api/buildjobs/u6fm6avm2q9jveuo/artifacts/artifacts%2Fopenblas-win.zip"
+  $opb_url = "https://ci.appveyor.com/api/buildjobs/ctsbxkdgvd2h809e/artifacts/artifacts%2Fopenblas-win.zip"
   Progress ("Downloading OpenBLAS from: " + $opb_url)
   & "C:\Program Files\Git\mingw64\bin\curl.exe" -s -o ../openblas-win.zip -L $inno_url
   Progress "Extracting OpenBLAS"

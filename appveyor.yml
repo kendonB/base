@@ -14,10 +14,10 @@ install:
   - ps: |
       Import-Module '.\scripts\appveyor-tool.ps1'
       SetTimezone
+      InstallOpenBLAS
       InstallMiktex
       InstallPerl
       InstallInno
-      InstallOpenBLAS
       InstallRtools
   - git submodule update --init
 
