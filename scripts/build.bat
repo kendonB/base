@@ -93,7 +93,17 @@ if %errorlevel% neq 0 (
 )
 
 :: Build 64bit version + installer
-make distribution > %BUILDDIR%/distribution.log 2>&1
+%@Try%
+  make distribution > %BUILDDIR%/distribution.log 2>&1
+%@EndTry%
+:@Catch
+  %@Try%
+    make distribution > %BUILDDIR%/distribution.log 2>&1
+  %@EndTry%
+  :@Catch
+    make distribution > %BUILDDIR%/distribution.log 2>&1
+  :@EndCatch
+:@EndCatch
 if %errorlevel% neq 0 (
 	echo ERROR: 'make distribution' failure! Inspect distribution.log for details.
 	exit /b 2

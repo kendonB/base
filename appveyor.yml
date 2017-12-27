@@ -23,6 +23,7 @@ install:
 
 build_script:
   - ps: Invoke-WebRequest "${env:source}" -OutFile "R-source.tar.gz"
+  - .\scripts\exceptions.bat
   - .\scripts\build.bat R-source.tar.gz 32
   - .\scripts\build.bat R-source.tar.gz 64
 
