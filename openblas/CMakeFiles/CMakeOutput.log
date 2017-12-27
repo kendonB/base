@@ -1,0 +1,142 @@
+The system is: Windows - 6.3.9600 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Miniconda36-x64/Library/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+The C compiler identification is Clang, found in "C:/projects/OpenBLAS/build/CMakeFiles/3.10.0/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_eb4ef\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_eb4ef.dir\build.make /nologo -L                  CMakeFiles\cmTC_eb4ef.dir\build
+Building C object CMakeFiles/cmTC_eb4ef.dir/testCCompiler.c.obj
+	C:\Miniconda36-x64\Library\bin\clang-cl.exe @C:\Users\appveyor\AppData\Local\Temp\1\nm4BEE.tmp
+Linking C executable cmTC_eb4ef.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_eb4ef.dir --manifests  -- C:\PROGRA~2\MI0E91~1.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTC_eb4ef.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm4C1E.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_e2948\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_e2948.dir\build.make /nologo -L                  CMakeFiles\cmTC_e2948.dir\build
+Building C object CMakeFiles/cmTC_e2948.dir/CMakeCCompilerABI.c.obj
+	C:\Miniconda36-x64\Library\bin\clang-cl.exe @C:\Users\appveyor\AppData\Local\Temp\1\nm4E21.tmp
+Linking C executable cmTC_e2948.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_e2948.dir --manifests  -- C:\PROGRA~2\MI0E91~1.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTC_e2948.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm4E51.tmp
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_32de5\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_32de5.dir\build.make /nologo -L                  CMakeFiles\cmTC_32de5.dir\build
+Building C object CMakeFiles/cmTC_32de5.dir/feature_tests.c.obj
+	C:\Miniconda36-x64\Library\bin\clang-cl.exe @C:\Users\appveyor\AppData\Local\Temp\1\nm4FC7.tmp
+Linking C executable cmTC_32de5.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_32de5.dir --manifests  -- C:\PROGRA~2\MI0E91~1.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTC_32de5.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm4FF7.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_c204b\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_c204b.dir\build.make /nologo -L                  CMakeFiles\cmTC_c204b.dir\build
+Building C object CMakeFiles/cmTC_c204b.dir/feature_tests.c.obj
+	C:\Miniconda36-x64\Library\bin\clang-cl.exe @C:\Users\appveyor\AppData\Local\Temp\1\nm516D.tmp
+Linking C executable cmTC_c204b.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_c204b.dir --manifests  -- C:\PROGRA~2\MI0E91~1.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTC_c204b.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm518D.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_9b682\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_9b682.dir\build.make /nologo -L                  CMakeFiles\cmTC_9b682.dir\build
+Building C object CMakeFiles/cmTC_9b682.dir/feature_tests.c.obj
+	C:\Miniconda36-x64\Library\bin\clang-cl.exe @C:\Users\appveyor\AppData\Local\Temp\1\nm5313.tmp
+Linking C executable cmTC_9b682.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_9b682.dir --manifests  -- C:\PROGRA~2\MI0E91~1.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTC_9b682.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm5333.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: C:/Miniconda36-x64/Library/bin/flang.exe 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+clang version 5.0.0 
+Target: x86_64-pc-windows-msvc
+Thread model: posix
+InstalledDir: C:\Miniconda36-x64\Library\bin
+ "C:\\Miniconda36-x64\\Library\\bin\\flang1" CMakeFortranCompilerId.F -opt 0 -terse 1 -inform warn -nohpf -nostatic -y 129 2 -inform warn -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp px -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -def __LONG_MAX__=2147483647L -def __SIZE_TYPE__=unsigned long long int -def __PTRDIFF_TYPE__=long long int -def _WIN32 -def WIN32 -def _WIN64 -def WIN64 -def _MSC_VER=1900 -def __NO_MATH_INLINES -def __x86_64 -def __x86_64__ -def __THROW= -def __extension__= -def __amd_64__amd64__ -def __k8 -def __k8__ -def __PGLLVM__ -preprocess -nofreeform -idir "C:\\\\Miniconda36-x64\\Library\\include" -idir . -vect 48 -y 54 1 -x 70 0x40000000 -y 163 0xc0000000 -x 189 0x10 -stbfile CMakeFortranCompilerId-bb6008.stb -modexport CMakeFortranCompilerId-bb6008.cmod -modindex CMakeFortranCompilerId-bb6008.cmdx -output CMakeFortranCompilerId-bb6008.ilm
+ "C:\\Miniconda36-x64\\Library\\bin\\flang2" CMakeFortranCompilerId-bb6008.ilm -x 6 0x100 -x 42 0x400000 -y 129 4 -x 129 0x400 -y 129 2 -ieee 1 -fn CMakeFortranCompilerId.F -opt 0 -terse 1 -inform warn -y 129 2 -inform warn -x 51 0x20 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp px -x 120 0x1000 -x 124 0x1400 -y 15 2 -x 57 0x3b0000 -x 58 0x48000000 -x 49 0x100 -astype 0 -x 183 4 -x 121 0x800 -x 54 0x10 -x 70 0x40000000 -x 249 50 -x 124 1 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 183 0x10 -stbfile CMakeFortranCompilerId-bb6008.stb -asm "C:\\Users\\appveyor\\AppData\\Local\\Temp\\1\\CMakeFortranCompilerId-bb6008.ll" -target x86_64-pc-windows-msvc19.0.24215 -linker /defaultlib:msvcrt -linker /defaultlib:flangmain -linker /subsystem:console -linker /defaultlib:flang -linker /defaultlib:flangrti -linker /defaultlib:ompstub -linker /subsystem:console -linker /defaultlib:flangmain
+ "C:\\Miniconda36-x64\\Library\\bin\\flang.exe" -cc1 -triple x86_64-pc-windows-msvc19.0.24215 -emit-obj -mrelax-all -mincremental-linker-compatible -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeFortranCompilerId.F -mrelocation-model pic -pic-level 2 -mthread-model posix -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -momit-leaf-frame-pointer -v -dwarf-column-info -debugger-tuning=gdb -resource-dir "C:\\Miniconda36-x64\\Library\\lib\\clang\\5.0.0" -fdebug-compilation-dir "C:\\projects\\OpenBLAS\\build\\CMakeFiles\\3.10.0\\CompilerIdFortran" -ferror-limit 19 -fmessage-length 0 -fms-extensions -fms-compatibility -fms-compatibility-version=19.0.24215 -fdelayed-template-parsing -fobjc-runtime=gcc -fdiagnostics-show-option -o "C:\\Users\\appveyor\\AppData\\Local\\Temp\\1\\CMakeFortranCompilerId-f832df.o" -x ir "C:\\Users\\appveyor\\AppData\\Local\\Temp\\1\\CMakeFortranCompilerId-bb6008.ll"
+clang -cc1 version 5.0.0 based upon LLVM 5.0.0 default target x86_64-pc-windows-msvc
+ "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\amd64\\link.exe" -out:a.exe -defaultlib:msvcrt -nologo /defaultlib:msvcrt "-libpath:C:\\Miniconda36-x64\\Library\\bin/../lib" /defaultlib:flangmain /subsystem:console /defaultlib:flang /defaultlib:flangrti /defaultlib:ompstub "C:\\Users\\appveyor\\AppData\\Local\\Temp\\1\\CMakeFortranCompilerId-f832df.o"
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
+
+The Fortran compiler identification is Flang, found in "C:/projects/OpenBLAS/build/CMakeFiles/3.10.0/CompilerIdFortran/a.exe"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_9e255\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_9e255.dir\build.make /nologo -L                  CMakeFiles\cmTC_9e255.dir\build
+Building Fortran object CMakeFiles/cmTC_9e255.dir/testFortranCompiler.f.obj
+	C:\Miniconda36-x64\Library\bin\flang.exe     -o CMakeFiles\cmTC_9e255.dir\testFortranCompiler.f.obj -c C:\projects\OpenBLAS\build\CMakeFiles\CMakeTmp\testFortranCompiler.f
+Linking Fortran executable cmTC_9e255.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_9e255.dir --manifests  -- link /nologo @CMakeFiles\cmTC_9e255.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm55C2.tmp
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_caea1\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_caea1.dir\build.make /nologo -L                  CMakeFiles\cmTC_caea1.dir\build
+Building Fortran object CMakeFiles/cmTC_caea1.dir/CMakeFortranCompilerABI.F.obj
+	C:\Miniconda36-x64\Library\bin\flang.exe     -o CMakeFiles\cmTC_caea1.dir\CMakeFortranCompilerABI.F.obj -c C:\Miniconda36-x64\Library\share\cmake-3.10\Modules\CMakeFortranCompilerABI.F
+Linking Fortran executable cmTC_caea1.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_caea1.dir --manifests  -- link /nologo @CMakeFiles\cmTC_caea1.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm5729.tmp
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: C:/projects/OpenBLAS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_aca8b\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTC_aca8b.dir\build.make /nologo -L                  CMakeFiles\cmTC_aca8b.dir\build
+Building Fortran object CMakeFiles/cmTC_aca8b.dir/testFortranCompilerF90.f90.obj
+	C:\Miniconda36-x64\Library\bin\flang.exe     -o CMakeFiles\cmTC_aca8b.dir\testFortranCompilerF90.f90.obj -c C:\projects\OpenBLAS\build\CMakeFiles\CMakeTmp\testFortranCompilerF90.f90
+Linking Fortran executable cmTC_aca8b.exe
+	C:\Miniconda36-x64\Library\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_aca8b.dir --manifests  -- link /nologo @CMakeFiles\cmTC_aca8b.dir\objects1.rsp @C:\Users\appveyor\AppData\Local\Temp\1\nm58DF.tmp
+
+
