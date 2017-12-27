@@ -17,6 +17,7 @@ install:
       InstallMiktex
       InstallPerl
       InstallInno
+      InstallOpenBLAS
       InstallRtools
   - git submodule update --init
 
