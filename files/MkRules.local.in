@@ -17,7 +17,7 @@ ICU_PATH = $(RTOOLS)/mingw_libs
 
 USE_LIBCURL = YES
 USE_ATLAS = YES
-ATLAS_PATH= @home@/openblas/lib
+ATLAS_PATH= C:/openblas/lib
 CURL_PATH = @home@/libcurl
 CURL_LIBS = -lcurl-dualssl -lssh2 -lz -lssl -lcrypto -lgdi32 -lws2_32 -lcrypt32 -lwldap32
 USE_ICU = YES

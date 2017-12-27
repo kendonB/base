@@ -259,6 +259,6 @@ Function InstallOpenBLAS {
   Progress ("Downloading OpenBLAS from: " + $opb_url)
   & "C:\Program Files\Git\mingw64\bin\curl.exe" -s -o ../openblas-win.zip -L $opb_url
   Progress "Extracting OpenBLAS"
-  7z x ../openblas-win.zip -oc:\OpenBLAS | Out-Null
+  7z x ../openblas-win.zip -oc:\openblas | Out-Null
   Progress "OpenBLAS installation: Done"
 }
