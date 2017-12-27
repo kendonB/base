@@ -96,6 +96,13 @@ if %errorlevel% neq 0 (
 make distribution > %BUILDDIR%/distribution1.log 2>&1
 make distribution > %BUILDDIR%/distribution2.log 2>&1
 make distribution > %BUILDDIR%/distribution3.log 2>&1
+make distribution > %BUILDDIR%/distribution4.log 2>&1
+make distribution > %BUILDDIR%/distribution5.log 2>&1
+make distribution > %BUILDDIR%/distribution6.log 2>&1
+make distribution > %BUILDDIR%/distribution7.log 2>&1
+make distribution > %BUILDDIR%/distribution8.log 2>&1
+make distribution > %BUILDDIR%/distribution9.log 2>&1
+make distribution > %BUILDDIR%/distribution10.log 2>&1
 if %errorlevel% neq 0 (
 	echo ERROR: 'make distribution' failure! Inspect distribution.log for details.
 	exit /b 2
